@@ -1,0 +1,121 @@
+
+<html>
+<head>
+<style>
+.searchbar-container{
+max-width: 600px;
+margin: auto;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.searchbar-container .searchbar{
+	background: #ecf1f4;
+	color: #2b6482;
+	border: 1px solid #2b6482;
+	padding: 0.4rem;
+	outline: none;
+	border-radius: 0.3rem;
+	min-width: 50%;
+
+}
+
+.sc1{
+animation: slide-left .8s ease forwards;
+}
+.sc2{
+	animation: slide-right.8s ease forwards;
+}
+
+.sc3{
+	animation: slide-top .8s ease forwards;
+}
+.sc4{
+	animation: slide-bottom .8s ease forwards;
+}
+.sc5{
+	animation: slide-angular-right-top .8s ease forwards;
+}
+.sc6{
+	animation: slide-angular-left-top .8s ease forwards;
+}
+
+@keyframes slide-left{
+	0%{
+		transform: translateX(5.6rem);
+		opacity:0;
+	}
+}
+
+@keyframes slide-right{
+	0%{
+		transform: translateX(-5.6rem);
+		opacity: 0;
+	}
+}
+@keyframes slide-top{
+	0%{
+		transform: translateY(-5.6rem);
+		opacity: 0;
+	}
+}
+@keyframes slide-bottom{
+	0%{
+		transform: translateY(5.6rem);
+		opacity: 0;
+	}
+}
+
+@keyframes slide-angular-right-top{
+	0%{
+		transform: translate(-5.6rem, -5.6rem);
+	}
+}
+
+@keyframes slide-angular-left-top{
+	0%{
+		transform: translate(5.6rem, -5.6rem);
+	}
+}
+</style>
+</head>
+<body>
+
+	<div class="searchbar-container">
+		<input class="searchbar sc1" value="Catania centro" type="text" placeholder="Inserisci la tua locazione" />
+	</div>
+	
+	<br />
+	
+	<div class="searchbar-container">
+		<input class="searchbar sc2" value="Catania centro" type="text" placeholder="Inserisci la tua locazione" />
+	</div>
+	
+	<br />
+	
+	<div class="searchbar-container">
+		<input class="searchbar sc3" value="Catania centro" type="text" placeholder="Inserisci la tua locazione" />
+	</div>
+
+	<br />
+	
+	<div class="searchbar-container">
+		<input class="searchbar sc4" value="Catania centro" type="text" placeholder="Inserisci la tua locazione" />
+	</div>
+	
+	<br/>
+	
+	<div class="searchbar-container">
+		<input class="searchbar sc5" value="Catania centro" type="text" placeholder="Inserisci la tua locazione" />
+	</div>
+	
+	<br />
+	 
+	 <div class="searchbar-container">
+		<input class="searchbar sc6" value="Catania centro" type="text" placeholder="Inserisci la tua locazione" />
+	</div>
+	
+</body>
+</html>
